@@ -1,31 +1,12 @@
-# NOTE
-
-The CLI is currently mostly out of date, tracking the previous major version of the Hypercore stack.
-
-Check out the individual repos instead, like [Hypercore](https://github.com/hypercore-protocol/hypercore), [Hyperbee](https://github.com/hypercore-protocol/hyperbee), [Hyperbeam](https://github.com/mafintosh/hyperbeam), [Hyperswarm](https://github.com/hyperswarm)
-
-<details><summary>Click to see the CLI README still</summary>
   
 # Hyp
-
-<p>[
-  <a href="https://www.youtube.com/watch?v=SVk1uIQxOO8" target="_blank">Demo Video</a> |
-  <a href="#installation">Installation</a> |
-  <a href="#usage">Usage</a> |
-  <a href="#overview">Overview</a> |
-  <a href="https://hypercore-protocol.org/guides/hyp/">Website</a>
-]</p>
-
-A CLI for peer-to-peer file sharing (and more) using the [Hypercore Protocol](https://hypercore-protocol.org).
-
-<a href="https://www.youtube.com/watch?v=SVk1uIQxOO8" target="_blank">📺 Watch The Demo Video</a>
 
 ## Installation
 
 Requires nodejs 14+
 
 ```
-npm install -g @hyperspace/cli
+npm install -g @datoms-cli
 ```
 
 To start using the network, run:
@@ -134,12 +115,3 @@ To see what hypers you are currently seeding, run `info`:
 hyp info
 ```
 
-## Documentation
-
-The [website documentation](https://hypercore-protocol.org/guides/hyp/) have a lot of useful guides:
-
-- [Full Commands Reference](https://hypercore-protocol.org/guides/hyp/commands/)
-- [Guide: Sharing Folders](https://hypercore-protocol.org/guides/hyp/sharing-folders/)
-- [Guide: Seeding Data](https://hypercore-protocol.org/guides/hyp/seeding-data/)
-- [Guide: Beaming Files](https://hypercore-protocol.org/guides/hyp/beaming-files/)
-</details>
